@@ -1,0 +1,31 @@
+#inscription-container {
+  width: 100vw;
+  height: 100vh;
+  margin: 0px;
+  background-image: url("/img/ski.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 150px;
+}
+
+#p-inscription {
+  text-align: center;
+  font-weight: 800;
+  font-size: 40px;
+}
+
+#form {
+  background-color: rgba(250, 250, 250, 0.7);
+  padding: 15px 50px;
+  width: 650px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#login-link {
+  width: max-content;
+  display: block;
+  margin: 0 auto;
+  font-size: 16px;
+}

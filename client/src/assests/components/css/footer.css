@@ -1,0 +1,18 @@
+#footer {
+  position: absolute;
+  width: 100%;
+  height: max-content;
+  border-top: solid 1px #222831;
+  padding: 25px 0px;
+  background-color: #f6f6f6;
+}
+
+#footer-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.stick-bottom {
+  bottom: 0;
+}

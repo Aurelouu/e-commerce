@@ -1,0 +1,14 @@
+#header {
+  position: fixed;
+  background-color: aliceblue;
+  margin: 0;
+  width: 100vw !important;
+  max-width: inherit;
+  z-index: 999;
+  padding: 15px 0px;
+  border-bottom: solid 1px #222831;
+}
+
+.header-button {
+  margin-right: 15px;
+}

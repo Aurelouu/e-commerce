@@ -1,0 +1,30 @@
+#connexion-container {
+  width: 100vw;
+  height: 100vh;
+  margin: 0px;
+  background-image: url("/img/ski.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 150px;
+}
+
+#p-connexion {
+  text-align: center;
+  font-weight: 800;
+  font-size: 40px;
+}
+
+#form {
+  padding: 15px 50px;
+  width: 650px;
+  margin: 0 auto;
+  background-color: rgba(250, 250, 250, 0.7);
+}
+
+#register-link {
+  width: max-content;
+  display: block;
+  margin: 0 auto;
+  font-size: 16px;
+}

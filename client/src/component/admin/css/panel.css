@@ -1,0 +1,7 @@
+#manage-buttons-container {
+  margin: 50px 0px;
+}
+
+.admin-button-link:hover {
+  text-decoration: none;
+}

@@ -1,0 +1,20 @@
+#product-price {
+  font-size: 24px;
+}
+
+#product-price::after {
+  content: " €";
+}
+
+#product-stock {
+  font-size: 24px;
+}
+
+#product-brand {
+  font-size: 32px;
+}
+
+#product-add {
+  margin-top: 25px;
+  padding: 15px 50px;
+}

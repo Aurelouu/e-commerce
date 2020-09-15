@@ -1,0 +1,21 @@
+.card-brand {
+  font-size: 20px;
+  font-family: "RobotoMedium";
+  font-weight: 500;
+  font-style: italic;
+}
+
+.card-price {
+  color: #ff2244;
+  font-size: 32px;
+  font-family: "RobotoLight";
+  font-weight: 200;
+}
+
+.card-price::after {
+  content: "0 €";
+}
+
+.card-button {
+  padding: 10px 50px !important;
+}

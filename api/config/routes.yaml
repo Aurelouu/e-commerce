@@ -1,0 +1,93 @@
+# User
+user_create:
+  path: /user/create
+  controller: App\Controller\UserController::userCreate
+  methods: ["POST"]
+user_login:
+  path: /user/login
+  controller: App\Controller\UserController::userLogin
+  methods: ["POST"]
+user_update_infos:
+  path: /user/update/infos
+  controller: App\Controller\UserController::userUpdateInfos
+  methods: ["PUT"]
+user_password_update:
+  path: /user/update/password
+  controller: App\Controller\UserController::userUpdatePassword
+  methods: ["PUT"]
+user_deactivate:
+  path: /user/deactivate
+  controller: App\Controller\UserController::userDeactivate
+  methods: ["PUT"]
+user_delete:
+  path: /user/delete
+  controller: App\Controller\UserController::userDelete
+  methods: ["DELETE"]
+
+# Category
+category_list:
+  path: /categories
+  controller: App\Controller\CategoryController::categoryList
+  methods: ["GET", "HEAD"]
+category_create:
+  path: /category/create
+  controller: App\Controller\CategoryController::categoryCreate
+  methods: ["POST"]
+category_delete:
+  path: /category/delete
+  controller: App\Controller\CategoryController::categoryDelete
+  methods: ["DELETE"]
+
+# Brand
+brand_list:
+  path: /brands
+  controller: App\Controller\BrandController::brandList
+  methods: ["GET", "HEAD"]
+brand_create:
+  path: /brand/create
+  controller: App\Controller\BrandController::brandCreate
+  methods: ["POST"]
+brand_delete:
+  path: /brand/delete
+  controller: App\Controller\BrandController::brandDelete
+  methods: ["DELETE"]
+
+# Product
+product_create:
+  path: /product/create
+  controller: App\Controller\ProductController::productCreate
+  methods: ["POST"]
+product_list:
+  path: /products
+  controller: App\Controller\ProductController::productList
+  methods: ["GET", "HEAD"]
+product_last:
+  path: /products/last
+  controller: App\Controller\ProductController::productLast
+  methods: ["GET", "HEAD"]
+product_read:
+  path: /products/{id}
+  controller: App\Controller\ProductController::productReadById
+  methods: ["GET", "HEAD"]
+product_delete:
+  path: /product/delete
+  controller: App\Controller\ProductController::productDelete
+  methods: ["DELETE"]
+
+# Admin
+admin_user_read:
+  path: /admin/users
+  controller: App\Controller\UserController::userRead
+  methods: ["POST"]
+admin_product_read:
+  path: /admin/products
+  controller: App\Controller\ProductController::productRead
+  methods: ["POST"]
+admin_category_read:
+  path: /admin/categories
+  controller: App\Controller\CategoryController::categoryRead
+  methods: ["POST"]
+admin_brand_read:
+  path: /admin/brands
+  controller: App\Controller\BrandController::brandRead
+  methods: ["POST"]
